@@ -1,6 +1,6 @@
 # Ignore compiled Scratch and Turbowarp project files
-*.sb3
-sb3/
+# *.sb3
+# sb3/
 
 # Ignore HTML exports
 *.html
