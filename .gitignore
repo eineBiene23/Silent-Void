@@ -1,0 +1,14 @@
+# Ignore compiled Scratch and Turbowarp project files
+*.sb3
+sb3/
+
+# Ignore HTML exports
+*.html
+html/
+
+# Ignore Python cache files (optional)
+__pycache__/
+
+# Ignore any local environment or OS files
+.DS_Stora
+Thumbs.db
