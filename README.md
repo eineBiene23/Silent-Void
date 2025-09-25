@@ -1,5 +1,5 @@
 # === Silent Void ===
-### ~Tech Demo v.0.1.2 - Hotfix 2
+### ~Tech Demo v.0.1.3 - Hotfix 3
 This is a very early preview demo of my newest game,
 Silent Void. You are intended to see almost nothing. By sending a "ping," you get a low-resolution map of your surroundings, but it is limited to only one frame. I will add an entity that you can only see by "pinging" it.
 
