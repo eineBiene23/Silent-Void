@@ -23,6 +23,7 @@ echo Running the unpacker...
 echo --------------------------------
 :: Run the python script with the dropped file as the first argument
 :: and "src" as the second argument.
+del /Q /S src 
 python sb3-unzip.py "%~1" "src"
 echo --------------------------------
 echo.
