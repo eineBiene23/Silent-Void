@@ -19,6 +19,9 @@ if not exist "sb3-unzip.py" (
 :: --- Main Process ---
 echo File provided: %~1
 echo.
+echo Copying game build to Root directory... 
+if errorlevel (echo [Error]: Could not copy file "%~1" into root directory. &echo Press any key to continue. (CTRL+C = exit) &pause >nul)
+copy /y "%~1" "[3D] Silent Void.sb3" 
 echo Running the unpacker...
 echo --------------------------------
 :: Run the python script with the dropped file as the first argument
